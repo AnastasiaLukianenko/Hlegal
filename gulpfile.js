@@ -15,11 +15,11 @@ const cssnano = require("cssnano");
 // All paths 
 const paths = { 
   html: { 
-    src: ["./app/**/*.html"], 
+    src: ["./**/*.html"], 
     dest: "./dist/", 
   }, 
   images: { 
-    src: ["./app/images/**/*"], 
+    src: ["./app/image/**/*"], 
     dest: "./dist/content/images/", 
   }, 
   styles: { 
